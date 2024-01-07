@@ -5,19 +5,31 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 }
 .text-primary{
-    color:#104c9c
+    color:#c25304
 }
 
 .btn-primary{
  border-radius: 5px;   
- background: #104c9c;
+ background:#c25304;
  border: 0;
  color: white;
  font-size: 20px;
  font-weight: 700;
  padding: 15px 35px;
 }
+.section-title{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
 
+
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 10px;
+}
 /* nav related style */
 nav{
     display: flex;
@@ -43,15 +55,47 @@ nav li {
 }
 nav a{
   text-decoration: none;  
-  color:#104c9c;
+  color:#c25304;
 }
 /* header related style*/
 .header{
-   background-color:#d9e8fc ; 
+   background-color:#d2c7ae ; 
+   background-image: url('../images/header_bg.png');
+   background-repeat: no-repeat;
+   background-position: bottom right;
+   background-size: 600px;
 }
-.banner{
-  padding: 30px 30px 30px 150px;
-  display: flex; 
-  align-items: center;
+ 
+.banner-content {
+    max-width:500px;
 }
 
+
+.banner{
+  padding: 30px 30px 0px 150px;
+  display: flex; 
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.banner-greeting{
+    font-size: 45px;
+    color:#474747;
+}
+.banner-title{
+  font-size: 85px ;  
+  font-family:normal ;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+/*main section*/
+
+
+/* about section*/
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin:130px 0;
+}
